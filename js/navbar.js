@@ -10,6 +10,14 @@ window.addEventListener('scroll', () => {
     }
 });
 
+window.addEventListener('scroll', () => {
+    if (window.scrollY > 100) {
+        navbar.classList.add('bg-white');
+    } else {
+        navbar.classList.remove('bg-white');
+    }
+});
+
 
 
 window.addEventListener("scroll", () => {

@@ -21,7 +21,7 @@
 <body class="font-poppins">
     
     <!-- NAVBAR -->
-    <nav id="navbar" class="fixed top-0 left-0 w-full bg-white px-5 py-3 shadow-slate-200 sm:px-16 lg:px-16 xl:py-5 xl:px-40">
+    <nav id="navbar" class="fixed top-0 left-0 w-full px-5 py-3 shadow-slate-300 transition-all duration-500 sm:px-16 lg:px-16 xl:py-5 xl:px-40">
         <div class="flex justify-between">
             <a href="#" class="flex gap-1 items-center text-blue-700">
                 <svg class="w-6" fill="currentColor" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path d="M575.8 255.5c0 18-15 32.1-32 32.1l-32 0 .7 160.2c0 2.7-.2 5.4-.5 8.1l0 16.2c0 22.1-17.9 40-40 40l-16 0c-1.1 0-2.2 0-3.3-.1c-1.4 .1-2.8 .1-4.2 .1L416 512l-24 0c-22.1 0-40-17.9-40-40l0-24 0-64c0-17.7-14.3-32-32-32l-64 0c-17.7 0-32 14.3-32 32l0 64 0 24c0 22.1-17.9 40-40 40l-24 0-31.9 0c-1.5 0-3-.1-4.5-.2c-1.2 .1-2.4 .2-3.6 .2l-16 0c-22.1 0-40-17.9-40-40l0-112c0-.9 0-1.9 .1-2.8l0-69.7-32 0c-18 0-32-14-32-32.1c0-9 3-17 10-24L266.4 8c7-7 15-8 22-8s15 2 21 7L564.8 231.5c8 7 12 15 11 24z"/></svg>
@@ -44,7 +44,7 @@
         </div>
     </nav>
 
-    <nav class="w-[90%] bg-white rounded-2xl px-10 py-4 shadow-md shadow-slate-400 fixed bottom-8 left-1/2 -translate-x-1/2 sm:w-90 lg:hidden">
+    <nav class="w-[90%] bg-white rounded-2xl px-10 py-4 shadow-md shadow-slate-400 fixed bottom-8 left-1/2 -translate-x-1/2 sm:w-96 lg:hidden">
         <ul class="flex justify-between items-center text-[#6C7493]">
             <li class="rounded-full p-2">
                 <a href="#hero" class="nav-link-current-mobile">
@@ -73,19 +73,19 @@
 
     <!-- HERO -->
     <section id="hero" class="w-full py-40 flex justify-center items-center bg-black px-5 sm:px-16 lg:h-screen lg:px-16 lg:py-0 xl:px-40">
-        <div class="flex flex-col justify-center gap-40 items-center lg:flex-row">
-            <div class="flex flex-col gap-8 flex-wrap sm:w-80">
-                <h1 class="text-white font-semibold text-7xl">Arcade<br/>Property</h1>
-                <p class="text-gray-400 text-xl/6 font-wrap">Miliki hunian rumah yang nyaman, aman, indah dan asri untuk keluarga anda.</p>
-                <a href="" class="text-white text-center text-lg font-semibold py-3 bg-blue-600 rounded-lg">Lihat Unit</a>
+        <div class="flex flex-col justify-center gap-20 items-center lg:flex-row lg:gap-40">
+            <div class="flex flex-col gap-8 flex-wrap sm:w-[80%] md:w-80">
+                <h1 class="text-5xl text-white font-semibold lg:text-7xl">Arcade<br/>Property</h1>
+                <p class="text-base text-gray-400 lg:text-xl/6 font-wrap">Miliki hunian rumah yang nyaman, aman, indah dan asri untuk keluarga anda.</p>
+                <a href="#recidences" class="text-white text-center text-base w-[80%] font-semibold py-2 bg-blue-600 rounded-lg hover:bg-blue-800 transition-all duration-300 sm:w-72 lg:text-lg lg:py-3">Lihat Unit</a>
                 <div class="flex gap-10 sm:gap-20">
                     <div class="w-max">
-                        <h1 class="text-white text-4xl font-semibold">210</h1>
-                        <p class="text-gray-400 leading-5 mt-2">Unit<br/>Terjual</p>
+                        <h1 class="text-white text-3xl font-semibold lg:text-4xl">210</h1>
+                        <p class="text-gray-400 text-sm leading-5 mt-2 lg:text-base">Unit<br/>Terjual</p>
                     </div>
                     <div class="w-max">
-                        <h1 class="text-white text-4xl font-semibold">162</h1>
-                        <p class="text-gray-400 leading-5 mt-2">Unit<br/>Tersisi</p>
+                        <h1 class="text-white text-3xl font-semibold lg:text-4xl">162</h1>
+                        <p class="text-gray-400 text-sm leading-5 mt-2 lg:text-base">Unit<br/>Tersisi</p>
                     </div>
                 </div>
             </div>
@@ -210,7 +210,7 @@
                             <h2 class="text-[#1F2F70] text-2xl font-semibold">Bangunan Kokoh</h2>
                             <p class="text-gray-600 text-lg">Dibangun dengan bahan dan material yang berkualitas</p>
                         </div>
-                        <div class="bg-blue-100 p-2 rounded-sm">
+                        <div class="bg-blue-100 p-2 rounded-md">
                             <svg class="w-10 text-blue-500 md:w-5" fill="currentColor" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path d="M575.8 255.5c0 18-15 32.1-32 32.1l-32 0 .7 160.2c0 2.7-.2 5.4-.5 8.1l0 16.2c0 22.1-17.9 40-40 40l-16 0c-1.1 0-2.2 0-3.3-.1c-1.4 .1-2.8 .1-4.2 .1L416 512l-24 0c-22.1 0-40-17.9-40-40l0-24 0-64c0-17.7-14.3-32-32-32l-64 0c-17.7 0-32 14.3-32 32l0 64 0 24c0 22.1-17.9 40-40 40l-24 0-31.9 0c-1.5 0-3-.1-4.5-.2c-1.2 .1-2.4 .2-3.6 .2l-16 0c-22.1 0-40-17.9-40-40l0-112c0-.9 0-1.9 .1-2.8l0-69.7-32 0c-18 0-32-14-32-32.1c0-9 3-17 10-24L266.4 8c7-7 15-8 22-8s15 2 21 7L564.8 231.5c8 7 12 15 11 24z"/></svg>
                         </div>
                     </div>
@@ -219,7 +219,7 @@
                             <h2 class="text-[#1F2F70] text-2xl font-semibold">Lingkungan Aman</h2>
                             <p class="text-gray-600 text-lg">CCTV disetiap sudut dan satpam yang stand by selama 24 jam</p>
                         </div>
-                        <div class="bg-blue-100 p-2 rounded-sm">
+                        <div class="bg-blue-100 p-2 rounded-md">
                             <svg class="w-10 text-blue-500 md:w-5" fill="currentColor" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path d="M0 48C0 21.5 21.5 0 48 0L336 0c26.5 0 48 21.5 48 48l0 159-42.4 17L304 224l-32 0c-8.8 0-16 7.2-16 16l0 32 0 24.2 0 7.8c0 .9 .1 1.7 .2 2.6c2.3 58.1 24.1 144.8 98.7 201.5c-5.8 2.5-12.2 3.9-18.9 3.9l-96 0 0-80c0-26.5-21.5-48-48-48s-48 21.5-48 48l0 80-96 0c-26.5 0-48-21.5-48-48L0 48zM80 224c-8.8 0-16 7.2-16 16l0 32c0 8.8 7.2 16 16 16l32 0c8.8 0 16-7.2 16-16l0-32c0-8.8-7.2-16-16-16l-32 0zm80 16l0 32c0 8.8 7.2 16 16 16l32 0c8.8 0 16-7.2 16-16l0-32c0-8.8-7.2-16-16-16l-32 0c-8.8 0-16 7.2-16 16zM64 112l0 32c0 8.8 7.2 16 16 16l32 0c8.8 0 16-7.2 16-16l0-32c0-8.8-7.2-16-16-16L80 96c-8.8 0-16 7.2-16 16zM176 96c-8.8 0-16 7.2-16 16l0 32c0 8.8 7.2 16 16 16l32 0c8.8 0 16-7.2 16-16l0-32c0-8.8-7.2-16-16-16l-32 0zm80 16l0 32c0 8.8 7.2 16 16 16l32 0c8.8 0 16-7.2 16-16l0-32c0-8.8-7.2-16-16-16l-32 0c-8.8 0-16 7.2-16 16zM423.1 225.7c5.7-2.3 12.1-2.3 17.8 0l120 48C570 277.4 576 286.2 576 296c0 63.3-25.9 168.8-134.8 214.2c-5.9 2.5-12.6 2.5-18.5 0C313.9 464.8 288 359.3 288 296c0-9.8 6-18.6 15.1-22.3l120-48zM527.4 312L432 273.8l0 187.8c68.2-33 91.5-99 95.4-149.7z"/></svg>
                         </div>
                     </div>
@@ -228,7 +228,7 @@
                             <h2 class="text-[#1F2F70] text-2xl font-semibold">Jalan Lebar</h2>
                             <p class="text-gray-600 text-lg">Memiliki akses jalan selebar 6m</p>
                         </div>
-                        <div class="bg-blue-100 p-2 rounded-sm">
+                        <div class="bg-blue-100 p-2 rounded-md">
                             <svg class="w-10 text-blue-500 md:w-5" fill="currentColor" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path d="M256 32l-74.8 0c-27.1 0-51.3 17.1-60.3 42.6L3.1 407.2C1.1 413 0 419.2 0 425.4C0 455.5 24.5 480 54.6 480L256 480l0-64c0-17.7 14.3-32 32-32s32 14.3 32 32l0 64 201.4 0c30.2 0 54.6-24.5 54.6-54.6c0-6.2-1.1-12.4-3.1-18.2L455.1 74.6C446 49.1 421.9 32 394.8 32L320 32l0 64c0 17.7-14.3 32-32 32s-32-14.3-32-32l0-64zm64 192l0 64c0 17.7-14.3 32-32 32s-32-14.3-32-32l0-64c0-17.7 14.3-32 32-32s32 14.3 32 32z"/></svg>
                         </div>
                     </div>
@@ -237,7 +237,7 @@
                             <h2 class="text-[#1F2F70] text-2xl font-semibold">1 Gate System</h2>
                             <p class="text-gray-600 text-lg">Akses masuk hanya bisa melalui gerbang depan</p>
                         </div>
-                        <div class="bg-blue-100 p-2 rounded-sm">
+                        <div class="bg-blue-100 p-2 rounded-md">
                             <svg class="w-10 text-blue-500 md:w-5" fill="currentColor" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path d="M32 32C14.3 32 0 46.3 0 64S14.3 96 32 96l448 0c17.7 0 32-14.3 32-32s-14.3-32-32-32L32 32zm0 384c-17.7 0-32 14.3-32 32s14.3 32 32 32l64 0 64 0 0-128c0-53 43-96 96-96s96 43 96 96l0 128 64 0 64 0c17.7 0 32-14.3 32-32s-14.3-32-32-32l0-288L32 128l0 288z"/></svg>
                         </div>
                     </div>
@@ -246,7 +246,7 @@
                             <h2 class="text-[#1F2F70] text-2xl font-semibold">Lokasi Strategis</h2>
                             <p class="text-gray-600 text-lg">Terletak di dekat pusat kota</p>
                         </div>
-                        <div class="bg-blue-100 p-2 rounded-sm">
+                        <div class="bg-blue-100 p-2 rounded-md">
                             <svg class="w-10 text-blue-500 md:w-5" fill="currentColor" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
                                 <path d="M215.7 499.2C267 435 384 279.4 384 192C384 86 298 0 192 0S0 86 0 192c0 87.4 117 243 168.3 307.2c12.3 15.3 35.1 15.3 47.4 0zM192 128a64 64 0 1 1 0 128 64 64 0 1 1 0-128z"/>
                             </svg>
@@ -277,7 +277,7 @@
                     <p class="text-gray-500 mt-5 text-lg">Ada yang ingin anda tanyakan seputar unit yang kami sediakan? hubungi saja kami</p>
                 </div>
                 <div class="flex flex-col gap-7 mt-10 sm:flex-row">
-                    <div class="w-full shadow-md shadow-blue-100 flex flex-col gap-5 border-2 border-blue-100 px-5 rounded-xl py-3">
+                    <div class="w-full shadow-md shadow-blue-100 flex flex-col gap-5 border-2 border-blue-100 px-5 rounded-xl py-3 hover:shadow-xl hover:shadow-blue-100 transition-all duration-300">
                         <div class="flex items-center gap-2">
                             <div class="bg-blue-100 p-2 rounded-lg">
                                 <svg class="w-10 text-blue-500 sm:w-5" fill="currentColor" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path d="M380.9 97.1C339 55.1 283.2 32 223.9 32c-122.4 0-222 99.6-222 222 0 39.1 10.2 77.3 29.6 111L0 480l117.7-30.9c32.4 17.7 68.9 27 106.1 27h.1c122.3 0 224.1-99.6 224.1-222 0-59.3-25.2-115-67.1-157zm-157 341.6c-33.2 0-65.7-8.9-94-25.7l-6.7-4-69.8 18.3L72 359.2l-4.4-7c-18.5-29.4-28.2-63.3-28.2-98.2 0-101.7 82.8-184.5 184.6-184.5 49.3 0 95.6 19.2 130.4 54.1 34.8 34.9 56.2 81.2 56.1 130.5 0 101.8-84.9 184.6-186.6 184.6zm101.2-138.2c-5.5-2.8-32.8-16.2-37.9-18-5.1-1.9-8.8-2.8-12.5 2.8-3.7 5.6-14.3 18-17.6 21.8-3.2 3.7-6.5 4.2-12 1.4-32.6-16.3-54-29.1-75.5-66-5.7-9.8 5.7-9.1 16.3-30.3 1.8-3.7 .9-6.9-.5-9.7-1.4-2.8-12.5-30.1-17.1-41.2-4.5-10.8-9.1-9.3-12.5-9.5-3.2-.2-6.9-.2-10.6-.2-3.7 0-9.7 1.4-14.8 6.9-5.1 5.6-19.4 19-19.4 46.3 0 27.3 19.9 53.7 22.6 57.4 2.8 3.7 39.1 59.7 94.8 83.8 35.2 15.2 49 16.5 66.6 13.9 10.7-1.6 32.8-13.4 37.4-26.4 4.6-13 4.6-24.1 3.2-26.4-1.3-2.5-5-3.9-10.5-6.6z"/></svg>
@@ -287,9 +287,9 @@
                                 <p class="text-gray-400 font-semibold">022.321.165.19</p>
                             </div>
                         </div>
-                        <a href="" class="text-blue-500 bg-blue-100 text-center font-semibold py-2 rounded-lg">Chat Now</a>
+                        <a href="" class="text-blue-500 bg-blue-100 text-center font-semibold py-2 rounded-lg hover:bg-blue-600 hover:text-white transition-all duration-300">Chat Now</a>
                     </div>
-                    <div class="w-full shadow-md shadow-blue-100 flex flex-col gap-5 border-2 border-blue-100 px-5 rounded-xl py-3">
+                    <div class="w-full shadow-md shadow-blue-100 flex flex-col gap-5 border-2 border-blue-100 px-5 rounded-xl py-3 hover:shadow-xl hover:shadow-blue-100 transition-all duration-300">
                         <div class="flex items-center gap-2">
                             <div class="bg-blue-100 p-2 rounded-lg">
                                 <svg class="w-10 text-blue-500 sm:w-5" fill="currentColor" xmlns="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path d="M64 112c-8.8 0-16 7.2-16 16l0 22.1L220.5 291.7c20.7 17 50.4 17 71.1 0L464 150.1l0-22.1c0-8.8-7.2-16-16-16L64 112zM48 212.2L48 384c0 8.8 7.2 16 16 16l384 0c8.8 0 16-7.2 16-16l0-171.8L322 328.8c-38.4 31.5-93.7 31.5-132 0L48 212.2zM0 128C0 92.7 28.7 64 64 64l384 0c35.3 0 64 28.7 64 64l0 256c0 35.3-28.7 64-64 64L64 448c-35.3 0-64-28.7-64-64L0 128z"/></svg>
@@ -299,7 +299,7 @@
                                 <p class="text-gray-400 font-semibold">johndoe@example.com</p>
                             </div>
                         </div>
-                        <a href="" class="text-blue-500 bg-blue-100 text-center font-semibold py-2 rounded-lg">Message Now</a>
+                        <a href="" class="text-blue-500 bg-blue-100 text-center font-semibold py-2 rounded-lg hover:bg-blue-600 hover:text-white transition-all duration-300">Message Now</a>
                     </div>
                 </div>
             </div>
@@ -310,10 +310,10 @@
     <footer class="w-full px-5 py-10 sm:px-16 lg:px-16 xl:px-40">
         <div class="grid grid-cols-3 gap-10">
             <div class="col-span-3 lg:col-span-1">
-                <div class="flex gap-1 items-center text-blue-700">
+                <a href="#" class="flex gap-1 items-center text-blue-700">
                     <svg class="w-5 md:w-6" fill="currentColor" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path d="M575.8 255.5c0 18-15 32.1-32 32.1l-32 0 .7 160.2c0 2.7-.2 5.4-.5 8.1l0 16.2c0 22.1-17.9 40-40 40l-16 0c-1.1 0-2.2 0-3.3-.1c-1.4 .1-2.8 .1-4.2 .1L416 512l-24 0c-22.1 0-40-17.9-40-40l0-24 0-64c0-17.7-14.3-32-32-32l-64 0c-17.7 0-32 14.3-32 32l0 64 0 24c0 22.1-17.9 40-40 40l-24 0-31.9 0c-1.5 0-3-.1-4.5-.2c-1.2 .1-2.4 .2-3.6 .2l-16 0c-22.1 0-40-17.9-40-40l0-112c0-.9 0-1.9 .1-2.8l0-69.7-32 0c-18 0-32-14-32-32.1c0-9 3-17 10-24L266.4 8c7-7 15-8 22-8s15 2 21 7L564.8 231.5c8 7 12 15 11 24z"/></svg>
                     <h1 class="text-lg font-semibold md:text-xl">Arcade</h1>
-                </div>
+                </a>
                 <h3 class="w-full text-gray-500 font-semibold mt-3 text-sm md:text-base lg:mt-5 2xl:w-98">
                     Menciptakan hunian rumah yang nyaman, aman, indah dan asri untuk keluarga anda.
                 </h3>
