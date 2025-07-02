@@ -9,7 +9,7 @@
 <body>
     
     <!-- NAVBAR -->
-    <nav class="fixed top-0 left-0 w-full bg-white px-5 py-3 sm:px-16 lg:px-16 xl:py-5 xl:px-40">
+    <nav class="fixed top-0 left-0 w-full bg-white px-5 py-3 shadow-md shadow-slate-200 sm:px-16 lg:px-16 xl:py-5 xl:px-40">
         <div class="flex justify-between">
             <div class="flex gap-1 items-center text-blue-700">
                 <svg class="w-6" fill="currentColor" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path d="M575.8 255.5c0 18-15 32.1-32 32.1l-32 0 .7 160.2c0 2.7-.2 5.4-.5 8.1l0 16.2c0 22.1-17.9 40-40 40l-16 0c-1.1 0-2.2 0-3.3-.1c-1.4 .1-2.8 .1-4.2 .1L416 512l-24 0c-22.1 0-40-17.9-40-40l0-24 0-64c0-17.7-14.3-32-32-32l-64 0c-17.7 0-32 14.3-32 32l0 64 0 24c0 22.1-17.9 40-40 40l-24 0-31.9 0c-1.5 0-3-.1-4.5-.2c-1.2 .1-2.4 .2-3.6 .2l-16 0c-22.1 0-40-17.9-40-40l0-112c0-.9 0-1.9 .1-2.8l0-69.7-32 0c-18 0-32-14-32-32.1c0-9 3-17 10-24L266.4 8c7-7 15-8 22-8s15 2 21 7L564.8 231.5c8 7 12 15 11 24z"/></svg>
@@ -17,16 +17,16 @@
             </div>
             <ul class="hidden gap-20 items-center font-semibold text-[#6C7493] lg:flex xl:text-lg">
                 <li>
-                    <a href="">Home</a>
+                    <a href="#hero">Home</a>
                 </li>
                 <li>
-                    <a href="">Recidences</a>
+                    <a href="#recidences">Recidences</a>
                 </li>
                 <li>
-                    <a href="">Value</a>
+                    <a href="#value">Value</a>
                 </li>
                 <li>
-                    <a href="">Contact</a>
+                    <a href="#contact">Contact</a>
                 </li>
             </ul>
         </div>
@@ -253,7 +253,7 @@
     </section>
 
     <!-- CONTACT -->
-    <section id="value" class="w-full px-5 py-20 sm:px-16 lg:px-16 lg:py-38 xl:px-40">
+    <section id="contact" class="w-full px-5 py-20 sm:px-16 lg:px-16 lg:py-38 xl:px-40">
         <div class="flex items-center flex-col gap-20 justify-center lg:flex-row">
             <div class="flex justify-center">
                 <div class="border-14 border-gray-100 rounded-t-full shadow-xl shadow-slate-200">
@@ -292,7 +292,64 @@
                         <a href="" class="text-blue-500 bg-blue-100 text-center font-semibold py-2 rounded-lg">Message Now</a>
                     </div>
                 </div>
+            </div>
         </div>
     </section>
+
+    <!-- FOOTER -->
+    <footer class="w-full px-5 py-10 sm:px-16 lg:px-16 xl:px-40">
+        <div class="grid grid-cols-3 gap-10">
+            <div class="col-span-3 lg:col-span-1">
+                <div class="flex gap-1 items-center text-blue-700">
+                    <svg class="w-5 md:w-6" fill="currentColor" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path d="M575.8 255.5c0 18-15 32.1-32 32.1l-32 0 .7 160.2c0 2.7-.2 5.4-.5 8.1l0 16.2c0 22.1-17.9 40-40 40l-16 0c-1.1 0-2.2 0-3.3-.1c-1.4 .1-2.8 .1-4.2 .1L416 512l-24 0c-22.1 0-40-17.9-40-40l0-24 0-64c0-17.7-14.3-32-32-32l-64 0c-17.7 0-32 14.3-32 32l0 64 0 24c0 22.1-17.9 40-40 40l-24 0-31.9 0c-1.5 0-3-.1-4.5-.2c-1.2 .1-2.4 .2-3.6 .2l-16 0c-22.1 0-40-17.9-40-40l0-112c0-.9 0-1.9 .1-2.8l0-69.7-32 0c-18 0-32-14-32-32.1c0-9 3-17 10-24L266.4 8c7-7 15-8 22-8s15 2 21 7L564.8 231.5c8 7 12 15 11 24z"/></svg>
+                    <h1 class="text-lg font-semibold md:text-xl">Arcade</h1>
+                </div>
+                <h3 class="w-full text-gray-500 font-semibold mt-3 text-sm md:text-base lg:mt-5 2xl:w-98">
+                    Menciptakan hunian rumah yang nyaman, aman, indah dan asri untuk keluarga anda.
+                </h3>
+            </div>
+            <div class="w-full col-span-3 lg:col-span-2 flex flex-wrap gap-10 sm:justify-between 2xl:gap-20">
+                <div>
+                    <h1 class="text-xl font-semibold md:text-2xl">About</h1>
+                    <ul class="flex flex-col gap-4 text-gray-500 font-semibold mt-8 text-sm md:text-base text-sm md:text-base">
+                        <li>About Us</li>
+                        <li>Features</li>
+                        <li>News & Blogs</li>
+                    </ul>
+                </div>
+                <div>
+                    <h1 class="text-xl font-semibold md:text-2xl">Company</h1>
+                    <ul class="flex flex-col gap-4 text-gray-500 font-semibold mt-8 text-sm md:text-base">
+                        <li>How We Work?</li>
+                        <li>Capital</li>
+                        <li>Security</li>
+                    </ul>
+                </div>
+                <div>
+                    <h1 class="text-xl font-semibold md:text-2xl">Support</h1>
+                    <ul class="flex flex-col gap-4 text-gray-500 font-semibold mt-8 text-sm md:text-base">
+                        <li>FAQs</li>
+                        <li>Support Center</li>
+                        <li>Contact Us</li>
+                    </ul>
+                </div>
+                <div>
+                    <h1 class="text-xl font-semibold md:text-2xl">About</h1>
+                    <ul class="flex items-center gap-4 text-gray-500 font-semibold mt-8">
+                        <li>
+                            <svg class="w-5 cursor-pointer" fill="currentColor" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path d="M64 32C28.7 32 0 60.7 0 96V416c0 35.3 28.7 64 64 64h98.2V334.2H109.4V256h52.8V222.3c0-87.1 39.4-127.5 125-127.5c16.2 0 44.2 3.2 55.7 6.4V172c-6-.6-16.5-1-29.6-1c-42 0-58.2 15.9-58.2 57.2V256h83.6l-14.4 78.2H255V480H384c35.3 0 64-28.7 64-64V96c0-35.3-28.7-64-64-64H64z"/></svg>
+                        </li>
+                        <li>
+                            <svg class="w-5 cursor-pointer rounded-md" fill="currentColor" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path d="M194.4 211.7a53.3 53.3 0 1 0 59.3 88.7 53.3 53.3 0 1 0 -59.3-88.7zm142.3-68.4c-5.2-5.2-11.5-9.3-18.4-12c-18.1-7.1-57.6-6.8-83.1-6.5c-4.1 0-7.9 .1-11.2 .1c-3.3 0-7.2 0-11.4-.1c-25.5-.3-64.8-.7-82.9 6.5c-6.9 2.7-13.1 6.8-18.4 12s-9.3 11.5-12 18.4c-7.1 18.1-6.7 57.7-6.5 83.2c0 4.1 .1 7.9 .1 11.1s0 7-.1 11.1c-.2 25.5-.6 65.1 6.5 83.2c2.7 6.9 6.8 13.1 12 18.4s11.5 9.3 18.4 12c18.1 7.1 57.6 6.8 83.1 6.5c4.1 0 7.9-.1 11.2-.1c3.3 0 7.2 0 11.4 .1c25.5 .3 64.8 .7 82.9-6.5c6.9-2.7 13.1-6.8 18.4-12s9.3-11.5 12-18.4c7.2-18 6.8-57.4 6.5-83c0-4.2-.1-8.1-.1-11.4s0-7.1 .1-11.4c.3-25.5 .7-64.9-6.5-83l0 0c-2.7-6.9-6.8-13.1-12-18.4zm-67.1 44.5A82 82 0 1 1 178.4 324.2a82 82 0 1 1 91.1-136.4zm29.2-1.3c-3.1-2.1-5.6-5.1-7.1-8.6s-1.8-7.3-1.1-11.1s2.6-7.1 5.2-9.8s6.1-4.5 9.8-5.2s7.6-.4 11.1 1.1s6.5 3.9 8.6 7s3.2 6.8 3.2 10.6c0 2.5-.5 5-1.4 7.3s-2.4 4.4-4.1 6.2s-3.9 3.2-6.2 4.2s-4.8 1.5-7.3 1.5l0 0c-3.8 0-7.5-1.1-10.6-3.2zM448 96c0-35.3-28.7-64-64-64H64C28.7 32 0 60.7 0 96V416c0 35.3 28.7 64 64 64H384c35.3 0 64-28.7 64-64V96zM357 389c-18.7 18.7-41.4 24.6-67 25.9c-26.4 1.5-105.6 1.5-132 0c-25.6-1.3-48.3-7.2-67-25.9s-24.6-41.4-25.8-67c-1.5-26.4-1.5-105.6 0-132c1.3-25.6 7.1-48.3 25.8-67s41.5-24.6 67-25.8c26.4-1.5 105.6-1.5 132 0c25.6 1.3 48.3 7.1 67 25.8s24.6 41.4 25.8 67c1.5 26.3 1.5 105.4 0 131.9c-1.3 25.6-7.1 48.3-25.8 67z"/></svg>
+                        </li>
+                        <li>
+                            <svg class="w-5 cursor-pointer rounded-md" fill="currentColor" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path d="M282 256.2l-95.2-54.1V310.3L282 256.2zM384 32H64C28.7 32 0 60.7 0 96V416c0 35.3 28.7 64 64 64H384c35.3 0 64-28.7 64-64V96c0-35.3-28.7-64-64-64zm14.4 136.1c7.6 28.6 7.6 88.2 7.6 88.2s0 59.6-7.6 88.1c-4.2 15.8-16.5 27.7-32.2 31.9C337.9 384 224 384 224 384s-113.9 0-142.2-7.6c-15.7-4.2-28-16.1-32.2-31.9C42 315.9 42 256.3 42 256.3s0-59.7 7.6-88.2c4.2-15.8 16.5-28.2 32.2-32.4C110.1 128 224 128 224 128s113.9 0 142.2 7.7c15.7 4.2 28 16.6 32.2 32.4z"/></svg>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <p class="text-center mt-20 text-gray-500 font-semibold text-sm mb-20 lg:mb-0">© Inspired By Bedimcode. All rigths reserved</p>
+    </footer>
 </body>
 </html>
